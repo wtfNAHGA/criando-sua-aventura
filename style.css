@@ -1,0 +1,33 @@
+body{
+    background-color: darkgreen;
+    color: white;
+    font-family: "Allura", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+
+button{
+    background-color: darkolivegreen;
+    color: white;
+    font-family: "Allura", cursive;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
